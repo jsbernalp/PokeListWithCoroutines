@@ -36,7 +36,7 @@ class ResponseServerTest {
     }
 
     @Test
-    fun `get weatherForecast and check timeZone exist`(){
+    fun `get pokelist and check bulbasaur exist`(){
         val response = MockResponse()
             .setResponseCode(HttpURLConnection.HTTP_OK)
             .setBody(JSONFileLoader().loadJSONString("poke_list_response_success") ?: "{errorCode: 34}")
@@ -52,7 +52,7 @@ class ResponseServerTest {
 
 
     @Test
-    fun `get weatherForecast check contains hourly list no empty`(){
+    fun `get pokelist check contains results list no empty`(){
         val response = MockResponse()
             .setResponseCode(HttpURLConnection.HTTP_OK)
             .setBody(JSONFileLoader().loadJSONString("poke_list_response_success") ?: "{errorCode: 34}")
