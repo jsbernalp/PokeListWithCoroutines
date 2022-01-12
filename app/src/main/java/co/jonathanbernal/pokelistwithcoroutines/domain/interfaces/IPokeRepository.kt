@@ -1,4 +1,4 @@
-package co.jonathanbernal.pokelistwithcoroutines.domain
+package co.jonathanbernal.pokelistwithcoroutines.domain.interfaces
 
 import co.jonathanbernal.pokelistwithcoroutines.model.Pokemon
 
