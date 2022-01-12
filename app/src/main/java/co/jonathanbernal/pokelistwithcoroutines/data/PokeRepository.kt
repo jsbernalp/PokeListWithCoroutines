@@ -2,9 +2,8 @@ package co.jonathanbernal.pokelistwithcoroutines.data
 
 import co.jonathanbernal.pokelistwithcoroutines.common.PokeEvent
 import co.jonathanbernal.pokelistwithcoroutines.common.PokeException
-import co.jonathanbernal.pokelistwithcoroutines.common.Response
 import co.jonathanbernal.pokelistwithcoroutines.data.datasource.remote.api.PokeApi
-import co.jonathanbernal.pokelistwithcoroutines.domain.IPokeRepository
+import co.jonathanbernal.pokelistwithcoroutines.domain.interfaces.IPokeRepository
 import co.jonathanbernal.pokelistwithcoroutines.model.Pokemon
 import javax.inject.Inject
 
